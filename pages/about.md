@@ -4,8 +4,8 @@ title: About
 permalink: "/about/"
 ---
 
-This website is a home to Gray's Amazon storefront.
-Please be aware that products linked here are available on Amazon US and purchasing through these links may generate a small revenue for the owner.
+Threat Intel Africa is a community of Cyber Threat Intelligence professionals and Cyber Security experts in the African region. The community focuses on applying threat intelligence, improving threat intelligence sharing and act as a public resource to help organizations manage threats accross industries such as Oil & Gas, Technology, and Financial sectors, government institutions across Africa.
 
-This website was created using [Github Pages](https://pages.github.com/) and [Jekyll](https://jekyllrb.com/), using the [Affiliates Jekyll Template](https://jamstackthemes.dev/demo/theme/affiliates-jekyll-theme/)
+Threat Intel Africa will provide you with reports, articles, conferences, presentations, webcasts and podcasts and workshops from professionals in the region.
 
+Locations: Kenya, Nigeria, Rwanda, Ghana, Benin Republic, Morroco, Angola.
