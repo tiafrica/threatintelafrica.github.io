@@ -10,6 +10,9 @@ topmenu:
 - title: Contact
   url: "contact/"
 
+- title: Contribute
+  url: "contribute/"
+
 - title: Join the community 
   url: https://t.me/threatintelafrica
   class: "ml-2 btn btn-dark text-white px-3"
