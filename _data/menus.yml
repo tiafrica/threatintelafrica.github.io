@@ -10,6 +10,9 @@ topmenu:
 - title: Contact
   url: "contact/"
 
+- title: Events
+  url: "contact/"
+
 - title: Contribute
   url: "contribute/"
 
