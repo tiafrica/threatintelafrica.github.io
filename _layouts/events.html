@@ -18,41 +18,18 @@ permalink: "/events.html"
     </div>
 </div>
 
-<!-- <h4 class="mt-5 mb-4 pb-2 border-bottom" id="{{ category[0] | replace: " ","-" }}"><span class="text-capitalize small font-weight-bold">Up coming events</span></h4>
-{% for category in site.events %}
-<div class="row">
-{% assign pages_list = category[1] %}
-{% for post in pages_list %}
-{% if post.title != null %}
-{% if group == null or group == post.group %}
-<div class="col-md-4 mb-5">
-{% include postbox.html %}
-</div>
-{% endif %}
-{% endif %}
-{% endfor %}
-{% assign pages_list = nil %}
-{% assign group = nil %}
-</div>
-{% endfor %} -->
-
-
 <h4 class="mt-5 mb-4 pb-2 border-bottom" id="{{ category[0] | replace: " ","-" }}"><span class="text-capitalize small font-weight-bold">Upcoming events</span></h4>
-<!-- {% for event in site.tags %} -->
-{% assign latestPost_year = site.posts.first.date | date: "%Y"  %}
-{% assign latestPost_week = site.posts.first.date | date: "%W"  %}
-
-{%- for post in site.posts -%}
-    
+{% assign currentYear = site.time | date: "%Y" %}
+{% assign currentWeek = site.time | date: "%W" %}
+{% for post in site.posts %}
     {% assign postYear = post.date | date: "%Y" %}
     {% assign postWeek = post.date | date: "%W" %}
-    
-    {%- if latestPost_year == postYear and latestPost_week == postWeek -%}
-        <a href="{{ post.url }}">{{ post.title }}</a><br>
+    {%- if post.tags != empty  -%}
+        {% if post.tags contains "future" %}   
+            <a href="{{ post.url }}">{{ post.title }}</a><br>
+        {% endif %}
     {%- endif -%}
-    
-{%- endfor -%}
-<!-- {% endfor %} -->
+{% endfor %}
 
 <h4 class="mt-5 mb-4 pb-2 border-bottom" id="{{ category[0] | replace: " ","-" }}"><span class="text-capitalize small font-weight-bold">Past events</span></h4>
 {% assign currentYear = site.time | date: "%Y" %}
@@ -61,10 +38,8 @@ permalink: "/events.html"
     {% assign postYear = post.date | date: "%Y" %}
     {% assign postWeek = post.date | date: "%W" %}
     {%- if post.tags != empty  -%}
-        <a href="{{ post.url }}">{{ post.title }}</a><br>
+        {% if post.tags contains "past" %}   
+            <a href="{{ post.url }}">{{ post.title }}</a><br>
+        {% endif %}
     {%- endif -%}
-
-    <!-- {%- if currentYear <= postYear and currentWeek <= postWeek -%}
-        <a href="{{ post.url }}">{{ post.title }}</a>
-    {%- endif -%} -->
 {% endfor %}

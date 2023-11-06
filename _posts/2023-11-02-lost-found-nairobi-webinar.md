@@ -2,9 +2,34 @@
 layout: post
 title:  "Webinar - Lost and Found in Nairobi"
 author: threatintelafrica
-events: [ Webinar ]
+categroies: [ Webinar ]
+tags: future
 image: assets/images/1.jpg
 ---
-This is changed. As I engage in the so-called "bull sessions" around and about the school, I too often find that most college men have a misconception of the purpose of education. Most of the "brethren" think that <a href="#">education should equip</a> them with the proper instruments of exploitation so that they can forever trample over the masses. Still others think that education should furnish them with noble ends rather than means to an end.
+We will discuss about one of the most prevalent crimes in Kenya - Mobile device theft. We will take an in-depth look at statistics surrounding mobile device theft across the country, give a personal real-life experience, and also look at how we can improve mobile device and data security.
 
-It seems to me that education has a two-fold function to perform in the life of man and in society: the one is utility and the other is culture. Education must enable a man to become more efficient, to achieve with increasing facility the ligitimate goals of his life.
+## Agenda
+
+### Part One - Crimes in Nairobi and Kenya
+
+We will take aloot at the top documented crimes in the city of Nairobi
+
+### Part Two - Phone theft operations in the wild
+
+We will take a look at documented phone theft operations by sindicates that have caught public attention in the local news
+
+### Part Three - Lost and Found
+
+Real life story and example of how i was able to recover my stolen phone in the city
+
+### Part Four - Protecting yourself
+
+We will discuss how we can protect ourselves and recover devices incase of theft
+
+## Details
+
+Date - 4pm EAT, 16th Nov, 2023 <br>
+Venue - Virtual on logytalks.com
+<div class="">
+    <a href="https://logytalks.com" class="btn btn-dark text-white px-5 btn-lg">Register</a>
+</div>
