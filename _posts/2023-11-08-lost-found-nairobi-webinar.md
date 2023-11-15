@@ -31,5 +31,5 @@ We will discuss how we can protect ourselves and recover devices incase of theft
 Date - 4pm EAT, 16th Nov, 2023 <br>
 Venue - Virtual on logytalks.com
 <div class="">
-    <a href="https://logytalks.com" class="btn btn-dark text-white px-5 btn-lg">Register</a>
+    <a href="https://www.logytalks.com/conference/145fb270-4e73-4399-89f7-125ee7149236-1698755915" class="btn btn-dark text-white px-5 btn-lg">Join</a>
 </div>
